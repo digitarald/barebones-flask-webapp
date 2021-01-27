@@ -7,7 +7,7 @@ def hello():
 
 @app.route('/<name>')
 def hello_name(user_name):
-    return "Hello {}!".format(name)
+    return "Hello {}!".format(user_name)
 
 if __name__ == "__main__":
   app.run()
